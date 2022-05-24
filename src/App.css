@@ -1,0 +1,52 @@
+.counter {
+    text-align: center;
+}
+
+.counter header {
+    background: aqua;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.counter section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.counter section .count {
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.counter section .actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.counter section .actions button {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border: 0;
+    border-radius: 1rem;
+}
+
+.counter section .actions .reset {
+    background: rgba(255, 0, 0, 0.8);
+}
+
+.counter section .actions .reset:hover {
+    background: red;
+}
+
+.counter section .actions .increment {
+    background: rgba(0, 0, 255, 0.8);
+}
+
+.counter section .actions .increment:hover {
+    background: blue;
+}
