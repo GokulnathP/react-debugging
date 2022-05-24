@@ -41,16 +41,16 @@ const App = () => {
                 <div className="actions">
                     <button
                         className="reset"
-                        onClick={() => setCounter({newCount: 0, newIncrementValue: 1})}
+                        onClick={() => setCounter()}
                     >
                         Reset
                     </button>
                     <button
                         className="increment"
-                        onClick={() => setCounter({
-                            newCount: counter.count + counter.incrementValue,
-                            newIncrementValue: counter.incrementValue
-                        })}
+                        onClick={() => setCounter(
+                            counter.count + counter.incrementValue,
+                            counter.incrementValue
+                        )}
                     >
                         Increment
                     </button>
